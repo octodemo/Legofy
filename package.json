@@ -1,0 +1,16 @@
+{
+  "name": "legofy-web",
+  "version": "1.0.0",
+  "description": "A web interface for Legofy application",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vite": "^2.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3"
+  }
+}
