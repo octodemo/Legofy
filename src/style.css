@@ -1,0 +1,51 @@
+/* Main body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #00a0e9;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#upload-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#upload-form input[type="file"] {
+    margin: 10px 0;
+}
+
+#upload-form button {
+    background-color: #00a0e9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#upload-form button:hover {
+    background-color: #007cb0;
+}
+
+#preview-container {
+    text-align: center;
+}
+
+#preview-image {
+    max-width: 100%;
+    height: auto;
+}

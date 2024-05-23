@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legofy Web Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Legofy Your Images</h1>
+        </header>
+        <main>
+            <form id="upload-form">
+                <input type="file" id="image-input" accept="image/*" required>
+                <button type="submit">Legofy!</button>
+            </form>
+            <div id="preview-container">
+                <img id="preview-image" src="" alt="Image preview">
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

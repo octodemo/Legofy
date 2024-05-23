@@ -9,6 +9,10 @@ Legofy is a python program that takes a static image or gif and makes it so that
 </a>
 <img alt="After" title="After" height="500" src="legofy/assets/flower_lego.png?raw=true">
 
+### Web Interface
+Legofy now features a simple web interface that allows users to upload images and apply the Legofy effect directly from their browser. The web interface is built using Node.js and Vite, providing a fast and responsive user experience.
+
+To access the web interface, simply navigate to the hosted URL or run the web server locally. Users can choose an image from their device, select the desired Legofy options, and see the transformed image, all within the web browser.
 
 ### Requirements
 * Python
@@ -57,6 +61,14 @@ $ legofy --palette all image.jpg
 ```
 There is another one palette, mono, with only 2 colors (black and white...). It's just for test and fun...
 
+### Setting Up the Web Interface Locally
+To run the web interface for Legofy on your local machine, you will need to have Node.js and Vite installed. Follow these steps to set up the web interface:
+
+1. Ensure that Node.js is installed on your system. You can download it from [Node.js official website](https://nodejs.org/).
+2. Install Vite globally by running `npm install -g vite` in your terminal.
+3. Navigate to the root directory of the Legofy project and run `npm install` to install the necessary dependencies.
+4. Start the development server by running `npm run dev`. This will launch the web interface on `http://localhost:3000`.
+5. To build the project for production, run `npm run build`.
 
 ### Troubleshooting
  * [Mac](http://pillow.readthedocs.org/en/3.0.x/installation.html#os-x-installation)
